@@ -33,9 +33,9 @@ def train_model(csv_file, model_name):
     print(f"{model_name} saved!")
 
 # Train all datasets
-train_model("lung.csv", "lung_model.pkl")
-train_model("liver.csv", "liver_model.pkl")
+#train_model("lung.csv", "lung_model.pkl")
+#train_model("liver.csv", "liver_model.pkl")
 train_model("kidney.csv", "kidney_model.pkl")
-train_model("skin.csv", "skin_model.pkl")
+#train_model("skin.csv", "skin_model.pkl")
 
 print("\n✅ All models trained successfully!")
